@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Programacion II</title>
+  </head>
+  <body>
+    <!-- Elementos de HTML-->
+    <h1>Katerine Michel Famoso Arreguin </h1>
+    <h1>11/11/2023</h1>
+    <h1>Programacion</h1>
+    <h1>Titulo de la actividad</h1>
+    <button onclick="arquitectura()">Licenciatura en arquitectura</button>
+    <button onclick="Biologia()">licenciatura en biologia</button>
+    <button onclick="Negocios()">ingeneria en negocios</button>
+    <button onclick="civil()">ingeneria civil</button>
+    
+  </body>
+  <script>
+  
+      /* Javascript */
+
+      function arquitectura(){
+        var licenciaturaenarquitectura = {
+
+            Nombredelacarrera:"licenciatura en arquitectura",
+            Nombredelcentrouniversitario:"cuaad",
+            Cantidaddeaspirantes:859,
+            Numerodeadmitidos:220,
+            Numerodenoadmitidos:639,
+            Puntajemínimo:159.23
+        };
+        alert("licenciatura en arquitectura" + JSON.stringify(licenciaturaenarquitectura));
+      }
+      function Biologia(){
+        var licenciaturaenbiologia = {
+
+            Nombredelacarrera:"licenciatura en biologia",
+            Nombredelcentrouniversitario:"cucba",
+            Cantidaddeaspirantes:440,
+            Numerodeadmitidos:260,
+            Numerodenoadmitidos:180,
+            Puntajemínimo:96.75
+        };
+        alert("licenciatura en biologia" + JSON.stringify(licenciaturaenbiologia));
+      }  
+      function Negocios(){
+        var ingeneriaennegocios = {
+
+            Nombredelacarrera:"ingeneria en negocios",
+            Nombredelcentrouniversitario:"cucea",
+            Cantidaddeaspirantes:122,
+            Numerodeadmitidos:100,
+            Numerodenoadmitidos:22,
+            Puntajemínimo:122.91
+        };
+        alert("ingeneria en negocios" + JSON.stringify(ingeneriaennegocios));
+      }  
+      function civil(){
+        var ingeneriacivil = {
+
+            Nombredelacarrera:"ingeneria civil",
+            Nombredelcentrouniversitario:"cucei",
+            Cantidaddeaspirantes:480,
+            Numerodeadmitidos:140,
+            Numerodenoadmitidos:340,
+            Puntajemínimo:153.21
+        };
+        alert("ingeneria civil" + JSON.stringify(ingeneriacivil));
+      }
+  </script>
+</html>
